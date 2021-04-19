@@ -14,5 +14,6 @@ def make_population_density_figure():
                                   locations="province",
                                   featureidkey="properties.ten_tinh",
                                   center={"lat": 16.46, "lon": 107.59},
-                                  mapbox_style="carto-positron", zoom=4.7, height=800)
+                                  mapbox_style="carto-positron", zoom=3.7,
+                                  title="Mật độ dân số việt Nam đầu năm 2019")
     return figure

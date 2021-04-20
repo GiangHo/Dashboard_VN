@@ -40,5 +40,3 @@ def make_sex_ratio_population_figure():
     fig.show()
 
 
-if __name__ == '__main__':
-    make_sex_ratio_population_figure()

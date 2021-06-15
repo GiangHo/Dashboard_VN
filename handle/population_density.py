@@ -4,7 +4,7 @@ import plotly.express as px
 
 
 def make_population_density_figure():
-    df = pd.read_csv("data/Mat-do-dan-so.csv")
+    df = pd.read_csv("data/population_density.csv")
 
     with open('data/vn.json') as response:
         vietnam = json.load(response)
